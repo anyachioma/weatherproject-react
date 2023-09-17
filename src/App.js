@@ -8,9 +8,9 @@ export default function App() {
         <h1>Weather App</h1>
         <Weather defaultCity="Lagos" />
         <footer>
-          This project was created by Bukola Agunbiade and it is{" "}
+          This project was created by Anya Chioma and it is{" "}
           <a
-            href="https://github.com/atinsbukol/react-weather-app"
+            href="https://github.com/anyachioma/weatherproject-react.git"
             target="_blank"
             rel="noreferrer"
           >
