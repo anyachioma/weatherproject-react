@@ -23,14 +23,13 @@ export default function Weather(props) {
     });
   }
   function search() {
-    const apiKey = "311f1f45fee82242ab4086372ab360f5";
+    const apiKey = "97f8e93f00107773f88eafd933ce86b7";
 
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
   function handleSubmit(event) {
     event.preventDefault();
-    // search for a city
     search();
   }
   function handleCityChange(event) {
